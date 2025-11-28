@@ -33,13 +33,13 @@ input {
 
 /* Placeholder Color */
 input::placeholder {
-  color: #bfbfbf;  /* Light gray */
+  color: #bfbfbf; /* Light gray */
   opacity: 1;
 }
 
 /* Hover Effect */
 input:hover {
-  background-color: #707783; 
+  background-color: #707783;
   border: 1px solid #9aa0a6;
   transition: 0.3s ease;
 }
@@ -61,7 +61,6 @@ button {
   vertical-align: top;
 }
 
-
 .or-line {
   display: flex;
   align-items: center;
@@ -77,27 +76,31 @@ button {
   background-color: #ccc; /* line color */
 }
 
-.facebook-line{
-   display: flex;
+.facebook-line {
+  display: flex;
   align-items: center;
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px; 
+  gap: 10px;
   cursor: pointer;
   margin-bottom: 20px;
- 
 }
 
-.color-chang{
+.color-chang {
   color: #007bfc;
 }
 
-.final-line{
-  padding-top: 45px;
+.final-line {
+  margin-left: 30px;
+  padding-top: 35px;
+  width: 175px;
+  text-align: center;
+  /* text-align: center; */
+  /* padding-left: 30px; */
 }
 
-h1{
+h1 {
   margin-bottom: 20px;
 }
 
@@ -129,4 +132,13 @@ h1{
 .password-box span:hover {
   color: white;
   transition: 0.2s ease;
+}
+
+.hover-line {
+  border-bottom: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.hover-line:hover {
+  border-bottom: 2px solid #ffffff; /* underline appear */
 }

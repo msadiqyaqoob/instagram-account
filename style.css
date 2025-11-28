@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  /* margin: 10px; */
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* space between image and content */
+  margin-top: 50px;
+}
+.main-div {
+  text-align: center;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #606770;
+  padding-left: 10px;
+  padding-right: 30px;
+  color: white;
+}
+
+/* Placeholder Color */
+input::placeholder {
+  color: #bfbfbf;  /* Light gray */
+  opacity: 1;
+}
+
+/* Hover Effect */
+input:hover {
+  background-color: #707783; 
+  border: 1px solid #9aa0a6;
+  transition: 0.3s ease;
+}
+
+button {
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #007bfc;
+  padding-left: 95px;
+  padding-right: 95px;
+  margin-right: 23px;
+}
+
+.image-div,
+.content-div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.or-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 250px;
+  margin: 20px auto;
+}
+
+.or-line hr {
+  flex: 1;
+  border: none;
+  height: 1px;
+  background-color: #ccc; /* line color */
+}
+
+.facebook-line{
+   display: flex;
+  align-items: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+  cursor: pointer;
+  margin-bottom: 20px;
+ 
+}
+
+.color-chang{
+  color: #007bfc;
+}
+
+.final-line{
+  padding-top: 45px;
+}
+
+h1{
+  margin-bottom: 20px;
+}
+
+.password-box {
+  position: relative;
+  width: 100%;
+}
+
+.password-box input {
+  width: 63%;
+  padding: 10px 40px 10px 10px; /* right side space for button */
+  border-radius: 5px;
+  border: none;
+  background-color: #606770;
+  color: white;
+}
+
+.password-box span {
+  position: absolute;
+  right: 53px;
+  top: 3%;
+  transform: translateY(50%);
+  color: #bfbfbf;
+  cursor: pointer;
+  font-size: 14px;
+  user-select: none;
+}
+
+.password-box span:hover {
+  color: white;
+  transition: 0.2s ease;
+}
